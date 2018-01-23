@@ -1,0 +1,46 @@
+/* Libary CSS */
+.shell {
+  display: block;
+  width:100%;
+  position: relative;
+  line-height: 34px;
+  span {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  color: #555;
+  pointer-events: none;
+  z-index: -1;
+  padding:0 15px;
+    i { /* any of these 3 will work */
+        color: transparent;
+        opacity: 0;
+        visibility: hidden;
+    }
+  }
+}
+
+input.masked,
+.shell span {
+  font-size: 16px;
+  font-family: monospace;
+  padding-right: 10px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+/* Look and feel (not lib specific) */
+
+li {
+  line-height: 2;
+  font-family: helvetica;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+}
+label {
+  display: inline-block;
+  width: 14em;
+}
+input {
+  border: none;
+}

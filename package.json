@@ -1,0 +1,26 @@
+{
+  "name": "homeoffice",
+  "version": "1.0.0",
+  "description": "Managing home office dates",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renata Szabo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-validator": "^0.11.9",
+    "inputmask": "^3.3.11",
+    "jquery": "^3.2.1"
+  }
+}

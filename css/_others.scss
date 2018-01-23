@@ -1,0 +1,29 @@
+table{
+  th{
+    cursor:pointer;
+  }
+}
+
+.fulltext{
+  .longtext{
+    display: none;
+  }
+  .smalltext, .longtext{
+    padding-right:20px;
+    position:relative;
+  }
+  .glyphicon-plus, .glyphicon-minus{
+    position:absolute;
+    right:0;
+    top:0;
+    width: 20px;
+    height:20px;
+    text-align:center;
+    cursor:pointer;
+    font-size:18px;
+    border:1px solid #DDD;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+}

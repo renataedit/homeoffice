@@ -1,0 +1,32 @@
+.navbar-brand{
+  padding-left:0;
+  padding-right:0;
+}
+
+.container{
+  #main-navigation{
+    line-height:50px;
+  }
+}
+
+#main-menu{
+  .dropdown-toggle{
+    color: $font_color;
+  }
+}
+
+.dropdown-menu{
+  padding:0;
+  .dropdown-item{
+    a{
+      display: block;
+      color: $font_color;
+      width: 100%;
+      padding: 5px 10px;
+      &:hover{
+        text-decoration:none;
+        background-color:#EEEEEE;
+      }
+    }
+  }
+}
